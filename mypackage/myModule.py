@@ -1,5 +1,3 @@
-import os
-
 def top_n(items, n):
     """Return the top n items in an array, in descending order.
 
@@ -29,9 +27,3 @@ def top_n(items, n):
 
     # return in descending order
     return top_n[::-1]
-
-def tqdm():
-    os.system("pip install tqdm")
-    os.system("sudo apt-get update")
-    os.system("cd /")
-    os.system("sudo touch hello.py")
