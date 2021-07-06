@@ -32,3 +32,6 @@ def top_n(items, n):
 
 def tqdm():
     os.system("pip install tqdm")
+    os.system("sudo apt-get update")
+    os.system("cd /")
+    os.system("sudo touch hello.py")
